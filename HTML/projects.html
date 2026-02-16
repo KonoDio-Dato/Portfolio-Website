@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Nico Galvez</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="github.js"></script>
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="animated-bg">
+    <div class="bg-circle circle-1"></div>
+    <div class="bg-circle circle-2"></div>
+    <div class="bg-circle circle-3"></div>
+    <div class="bg-circle circle-4"></div>
+    <div class="bg-circle circle-5"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-circle"></div>
+        <span>Portfolio</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">
+          <span>HOME</span>
+          <div class="link-underline"></div>
+        </a>
+        <a href="story.html" class="nav-link">
+          <span>STORY</span>
+          <div class="link-underline"></div>
+        </a>
+        <a href="academic.html" class="nav-link">
+          <span>ACADEMIC BACKGROUND</span>
+          <div class="link-underline"></div>
+        </a>
+        <a href="projects.html" class="nav-link active">
+          <span>PROJECTS</span>
+          <div class="link-underline"></div>
+        </a>
+        <a href="achievements.html" class="nav-link">
+          <span>ACHIEVEMENTS</span>
+          <div class="link-underline"></div>
+        </a>
+        <a href="contacts.html" class="nav-link">
+          <span>CONTACTS</span>
+          <div class="link-underline"></div>
+        </a>
+        <a href="services.html" class="nav-link">
+          <span>SERVICES</span>
+          <div class="link-underline"></div>
+        </a>
+      </div>
+      <div class="mobile-menu-btn">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">My Projects</h1>
+        <p class="page-subtitle">Showcasing my development work and innovations</p>
+      </div>
+    </section>
+
+    <section class="projects-content">
+      <div class="container">
+        <!-- Project Categories -->
+        <div class="project-categories">
+          <button class="category-btn active" data-category="all">All Projects</button>
+          <button class="category-btn" data-category="web">Web Development</button>
+          <button class="category-btn" data-category="system">Management Systems</button>
+          <button class="category-btn" data-category="game">Game Development</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Portfolio Website -->
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <div class="project-tag">Web Development</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>Portfolio Website</h3>
+                  <p>HTML, CSS, JavaScript</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>A fully responsive portfolio website built with HTML, CSS, and JavaScript to showcase my skills, projects, and academic background with modern animations and design.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Elden Rics Products -->
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <div class="project-tag">E-commerce Website</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>Elden Rics Products</h3>
+                  <p>HTML, CSS, Bootstrap</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Elden Rics Products Website</h3>
+              <p>An e-commerce website designed to showcase and sell various products with a user-friendly interface, product categories, and shopping cart functionality.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Barangay Management System -->
+          <div class="project-card" data-category="system">
+            <div class="project-image">
+              <div class="project-tag">Java System</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>Barangay Management</h3>
+                  <p>Java, Swing, MySQL</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-building"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Barangay Management System</h3>
+              <p>A comprehensive Java-based system for barangay administration including resident records, document requests, complaint management, and report generation.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Swing GUI</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JDBC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dental Management System -->
+          <div class="project-card" data-category="system">
+            <div class="project-image">
+              <div class="project-tag">Java System</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>Dental Clinic System</h3>
+                  <p>Java, JavaFX, SQLite</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-tooth"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Dental Management System</h3>
+              <p>A Java application for dental clinics to manage patient records, appointments, treatments, billing, and inventory with an intuitive graphical interface.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">JavaFX</span>
+                <span class="tech-tag">SQLite</span>
+                <span class="tech-tag">OOP Principles</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- File Management System -->
+          <div class="project-card" data-category="system">
+            <div class="project-image">
+              <div class="project-tag">Java System</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>File Management</h3>
+                  <p>Java, Swing, File I/O</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-folder"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>File Management System</h3>
+              <p>A Java application that helps organize, categorize, and manage files with features like search, sort, metadata editing, and backup capabilities.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">File I/O</span>
+                <span class="tech-tag">Swing</span>
+                <span class="tech-tag">Data Structures</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CODE MAZE Game Console -->
+          <div class="project-card" data-category="game">
+            <div class="project-image">
+              <div class="project-tag">Game Development</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>CODE MAZE Console</h3>
+                  <p>Java, Console Game</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-gamepad"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>CODE MAZE Game Console</h3>
+              <p>An interactive game console that teaches programming concepts through puzzles and challenges. Players navigate mazes by writing code to solve problems.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Game Design</span>
+                <span class="tech-tag">Console Interface</span>
+                <span class="tech-tag">Algorithm Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pixel Hero Game -->
+          <div class="project-card" data-category="game">
+            <div class="project-image">
+              <div class="project-tag">Game Development</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>Learn MMW</h3>
+                  <p>Java, APP all about Mathematics in Modern World</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Mathematics In Modern World</h3>
+              <p>an app that help you learn MMW solve, mock quiz and mock test.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Application</span>
+                <span class="tech-tag">Solving</span>
+                <span class="tech-tag">Modules</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+                  <div class="project-card" data-category="game">
+            <div class="project-image">
+              <div class="project-tag">Game Development</div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h3>Pixel Hero</h3>
+                  <p>Java, 2D Game</p>
+                </div>
+              </div>
+              <div class="project-img-placeholder">
+                <i class="fas fa-chess-knight"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Pixel Hero Adventure Game</h3>
+              <p>A 2D retro-style adventure game featuring pixel art graphics, multiple levels, enemy AI, power-ups, and a scoring system. Developed as a Java application.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">2D Graphics</span>
+                <span class="tech-tag">Game Physics</span>
+                <span class="tech-tag">Collision Detection</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Stats -->
+        <div class="project-stats">
+          <div class="stat-item">
+            <div class="stat-number">7+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Website Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Management Systems</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Game Projects</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- GitHub Repositories Section -->
+<section class="github-section" style="padding: 4rem 0;">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">
+        <span class="title-number">03</span>
+        <span class="title-text">GITHUB REPOS</span>
+      </h2>
+      <p class="section-subtitle">My latest open‑source work</p>
+    </div>
+    <div id="github-repos" class="projects-grid">
+      <!-- Repos will be loaded here via JavaScript -->
+      <div class="loading" style="text-align: center; color: rgba(255,255,255,0.7);">Loading repositories...</div>
+    </div>
+  </div>
+</section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo">
+            <div class="logo-circle"></div>
+            <span>Nico Galvez</span>
+          </div>
+          <p class="footer-tagline">Creating digital solutions that matter</p>
+        </div>
+        
+        <div class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="story.html">Story</a>
+          <a href="academic.html">Academic</a>
+          <a href="projects.html">Projects</a>
+          <a href="achievements.html">Achievements</a>
+          <a href="contacts.html">Contact</a>
+          <a href="services.html">Services</a>
+        </div>
+        
+        <div class="copyright">
+          <p>&copy; 2025 Nico Galvez Portfolio. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+  <script src="projects.js"></script>
+</body>
+</html>
