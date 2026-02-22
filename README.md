@@ -22,7 +22,7 @@ The website is built with HTML, CSS, and JavaScript, and features a responsive d
 - **Purpose**: Stores project inquiries submitted via the Inquiry page and feedback submitted via the Feedback page. Each submission is saved with a `pending` status. An admin page (`admin-feedback.html`) allows me to review and approve or decline entries. Approved feedback is displayed on the homepage testimonials section.
 - **Integration**: Firebase JavaScript SDK is used to add documents to the `inquiries` and `feedback` collections. Queries filter by `status` to display only approved content on the public site. Firebase Authentication protects the admin pages.
 
-**###4. Dify Chat Widget (Chatbot)**
+**4. Dify Chat Widget (Chatbot)**
 Purpose: Provides an interactive AI‑powered chat assistant that can answer questions about my portfolio, skills, or projects. It enhances user engagement and offers immediate help.
 
 Integration: The Dify chatbot is embedded via a script tag. A unique conversation ID is generated on each page load to prevent history retention. The widget's appearance is styled to match the portfolio's cerulean color scheme.
